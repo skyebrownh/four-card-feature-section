@@ -16,23 +16,31 @@
     <link
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
+      type="text/css"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+      type="text/css"
     />
     <!-- custom styles -->
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
-
       body {
         font-family: 'Poppins', sans-serif;
         font-size: 15px;
+        background-color: hsl(0, 0%, 98%);
+        color: hsl(234, 12%, 34%);
       }
     </style>
   </head>
-  <body>
+  <body class="p-6">
     <!-- heading -->
-    <header>
-      <h1>Reliable, efficient delivery</h1>
-      <h2>Powered by Technology</h2>
-      <p>
+    <header class="w-full text-center pt-4 pb-12">
+      <h1 class="text-xl font-normal">Reliable, efficient delivery</h1>
+      <h2 class="text-xl font-semibold">Powered by Technology</h2>
+      <p class="text-sm font-extralight mt-4">
         Our Artificial Intelligence powered tools use millions of project data
         points to ensure that your project is successful
       </p>
