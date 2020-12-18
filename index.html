@@ -37,7 +37,7 @@
   </head>
   <body class="p-6">
     <!-- heading -->
-    <header class="w-full text-center pt-4 pb-16">
+    <header class="w-full text-center pt-4 pb-16 max-w-md md:mx-auto">
       <h1 class="text-xl font-normal">Reliable, efficient delivery</h1>
       <h2 class="text-xl font-semibold">Powered by Technology</h2>
       <p class="text-sm font-extralight mt-4">
@@ -47,9 +47,9 @@
     </header>
 
     <!-- cards -->
-    <section class="w-full flex flex-col items-center">
+    <main class="w-full flex flex-col items-center lg:flex-row">
       <div
-        class="bg-white rounded-md border-t-4 p-5 shadow-lg mb-5 w-full"
+        class="bg-white rounded-md border-t-4 p-5 shadow-lg mb-5 w-full lg:mb-0"
         style="border-color: hsl(180, 62%, 55%)"
       >
         <h3 class="font-semibold text-lg mb-1">Supervisor</h3>
@@ -78,7 +78,7 @@
           />
         </div>
         <div
-          class="bg-white rounded-md border-t-4 p-5 shadow-lg mb-5 w-full"
+          class="bg-white rounded-md border-t-4 p-5 shadow-lg mb-5 w-full lg:mb-0"
           style="border-color: hsl(34, 97%, 64%)"
         >
           <h3 class="font-semibold text-lg mb-1">Karma</h3>
@@ -93,7 +93,7 @@
         </div>
       </div>
       <div
-        class="bg-white rounded-md border-t-4 p-5 shadow-lg mb-5 w-full"
+        class="bg-white rounded-md border-t-4 p-5 shadow-lg mb-5 w-full lg:mb-0"
         style="border-color: hsl(212, 86%, 64%)"
       >
         <h3 class="font-semibold text-lg mb-1">Calculator</h3>
@@ -106,10 +106,12 @@
           class="mt-8 ml-auto w-12 h-12"
         />
       </div>
-    </section>
+    </main>
 
     <!-- attribution -->
-    <footer class="w-full mt-2">
+    <footer
+      class="w-full mt-2 lg:mt-0 lg:absolute lg:left-0 lg:right-0 lg:bottom-4"
+    >
       <p class="text-center text-xs font-extralight">
         Challenge by
         <a
