@@ -20,4 +20,82 @@
 /* base styles */
 body {
     font-size: 15px;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: var(--very-light-gray-color);
+    color: var(--grayish-blue-color);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--very-dark-blue-color);
+}
+
+h1,
+h2 {
+    font-size: 1.3rem;
+}
+
+h2 {
+    font-weight: 200;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+/* main styles */
+main .description {
+    margin: 1rem 0 4rem;
+    font-size: 0.9rem;
+}
+
+.card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: left;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 7px 20px -10px hsl(229, 30%, 66%);
+}
+
+.card:nth-child(1) {
+    border-top: 4px solid var(--cyan-color);
+}
+
+.card:nth-child(2) {
+    border-top: 4px solid var(--red-color);
+}
+
+.card:nth-child(3) {
+    border-top: 4px solid var(--orange-color);
+}
+
+.card:nth-child(4) {
+    border-top: 4px solid var(--blue-color);
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.card img {
+    align-self: end;
 }
