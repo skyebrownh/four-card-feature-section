@@ -147,14 +147,6 @@ main .description {
         margin-bottom: 0;
     }
 
-    /* .card h3 {
-        font-size: 1.4rem;
-    }
-
-    .card p {
-        font-size: 0.9rem;
-    } */
-
     .card:nth-child(1) {
         grid-area: one;
         align-self: center;
